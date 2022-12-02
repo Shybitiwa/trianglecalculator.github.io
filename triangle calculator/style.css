@@ -1,0 +1,122 @@
+@font-face {
+    font-family: simplify;
+    src: url(Simplify.ttf);
+}
+
+#btn {
+    font-family: simplify;
+    width: 130px;
+    height: 40px;
+    font-size: larger;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+}
+
+#btn:hover {
+    color: white;
+    background-color: brown;
+}
+
+
+#madeByText {
+    font-size: larger;
+    font-family: simplify;
+    bottom: 30px;
+    right: 20px;
+    position: fixed;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to bottom, red, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titleText {
+    font-family: simplify;
+    font-size: 50px;
+    top: 30px;
+    left: 5%;
+    position: fixed;
+    color: white;
+}
+
+#inputBoxes {
+    position: fixed;
+    right: 20%;
+    top: 45%;
+}
+
+#labelForInput {
+    position: fixed;
+    left: 58%;
+    top: 45%;
+    text-align: right;
+}
+
+input {
+    border-radius: 20px;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+#calBtn {
+    /*
+    border-radius: 20px;
+    border-width: 1px;
+    width: 153px;
+    height: 33px;
+    text-align: center;
+    */
+    font-family: simplify;
+    width: 130px;
+    height: 40px;
+    font-size: larger;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+#calBtn:hover {
+    color: white;
+    background-color: brown;
+}
+
+#calBtn:active {
+    background-color: red;
+    color: black;
+}
+
+#titleBackground {
+    border: 0px;
+    background-color: purple;
+    height: 115px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#canvas {
+    position: fixed;
+    /*    border: 1px solid;*/
+    top: 35%;
+    left: 15%;
+}
+
+#area {
+    color: floralwhite;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    font-size: 50px;
+}
